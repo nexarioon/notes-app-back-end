@@ -1,6 +1,6 @@
-# Notes App — Back End
+# Notes app back end
 
-REST API for a notes application, built as a submission for the **Dicoding: Back-End for Beginners** class.
+REST API for a notes application, written for the Dicoding back-end class.
 
 ## Structure
 
@@ -8,7 +8,7 @@ REST API for a notes application, built as a submission for the **Dicoding: Back
 src/
 ├── server.js     # server bootstrap
 ├── routes.js     # endpoint definitions
-├── handler.js    # request/response logic
+├── handler.js    # request and response logic
 └── notes.js      # notes data
 ```
 
@@ -25,6 +25,4 @@ npm run start
 npm run lint
 ```
 
-## Notes
-
-Practice project — data is kept in memory, no database yet.
+Data is kept in memory, so there is no database yet.
