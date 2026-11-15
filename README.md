@@ -1,18 +1,18 @@
 # Notes App — Back End
 
-REST API untuk aplikasi catatan (notes), dibuat sebagai submission kelas **Dicoding: Belajar Membuat Aplikasi Back-End untuk Pemula**.
+REST API for a notes application, built as a submission for the **Dicoding: Back-End for Beginners** class.
 
-## Isi Proyek
+## Structure
 
 ```
 src/
-├── server.js     # bootstrap server (Hapi/Express handler)
-├── routes.js     # definisi endpoint
-├── handler.js    # logika request/response
-└── notes.js      # data notes
+├── server.js     # server bootstrap
+├── routes.js     # endpoint definitions
+├── handler.js    # request/response logic
+└── notes.js      # notes data
 ```
 
-## Menjalankan
+## Run
 
 ```bash
 npm install
@@ -25,6 +25,6 @@ npm run start
 npm run lint
 ```
 
-## Catatan
+## Notes
 
-Proyek latihan — data masih disimpan in-memory, tanpa database.
+Practice project — data is kept in memory, no database yet.
